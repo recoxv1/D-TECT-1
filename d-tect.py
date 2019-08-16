@@ -3,10 +3,6 @@ from moduleBS import BeautifulSoup
 import urlparse
 from dtectcolors import Style,Fore,Back,init 
 init()
-if os.name == 'nt':
-	os.system('cls')
-else:
-	os.system('clear')
 
 d4rk = 0
 dr1 = "D4rk "
@@ -37,14 +33,6 @@ sqliscanner		=		"off"
 
 
 def dtect():
-	print("  ____   _____ _____ ____ _____ ")
-	print(" |  _ \ |_   _| ____/ ___|_   _|")
-	print(" | | | |__| | |  _|| |     | |  ")
-	print(" | |_| |__| | | |__| |___  | |  ")
-	print(" |____/   |_| |_____\____| |_|  v1.0")
-	print("") 
-	print(" D-TECT - Pentest the Modern Web")
-	print(" Author: Shawar Khan - ( https://shawarkhan.com )")
 	print("")
 	def menu():
 		global filedetector,wpenumerator,subdomainscan,portscan,wpscan,xssscanner,wpbackupscan,sqliscanner
